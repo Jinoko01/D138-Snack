@@ -1,0 +1,27 @@
+[
+  {
+    "id": "1",
+    "name": "Cheetos",
+    "link": "https://www.coupang.com/vp/products/1271016993?itemId=8510548670&vendorItemId=86273948915&pickType=COU_PICK&q=%EC%B9%98%ED%86%A0%EC%8A%A4&itemsCount=36&searchId=eb61bf974197817&rank=2&searchRank=2"
+  },
+  {
+    "id": "2",
+    "name": "Doritos",
+    "link": "https://www.coupang.com/vp/products/5463613697?itemId=18171938899&vendorItemId=85321277997&pickType=COU_PICK&q=%EB%8F%84%EB%A6%AC%ED%86%A0%EC%8A%A4&itemsCount=36&searchId=8778d85a1044177&rank=1&searchRank=1&isAddedCart="
+  },
+  {
+    "id": "3",
+    "name": "Fritos",
+    "link": "https://www.coupang.com/vp/products/7852407246?itemId=21406145912&vendorItemId=85349668188&sourceType=srp_product_ads&clickEventId=43a020d0-f657-11ef-a207-52d673545d13&korePlacement=15&koreSubPlacement=1&q=%ED%94%84%EB%A6%AC%ED%86%A0%EC%8A%A4&itemsCount=36&searchId=5101d8464805836&rank=0&searchRank=0&isAddedCart="
+  },
+  {
+    "id": "4",
+    "name": "Lays",
+    "link": "https://www.coupang.com/vp/products/7714496400?itemId=23508797609&vendorItemId=89028029609&sourceType=srp_product_ads&clickEventId=4ed34130-f657-11ef-8c76-69ae55ca5e24&korePlacement=15&koreSubPlacement=1&q=lays&itemsCount=36&searchId=09865c297726925&rank=0&searchRank=0&isAddedCart="
+  },
+  {
+    "id": "5",
+    "name": "Ruffles",
+    "link": null
+  }
+]
