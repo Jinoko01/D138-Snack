@@ -8,7 +8,7 @@ import { addSnack } from '@/lib/snackList';
 export default function AddSnackForm() {
   const [snackName, setSnackName] = useState('');
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
 
     if (!snackName.trim()) {
@@ -16,7 +16,7 @@ export default function AddSnackForm() {
       return;
     }
 
-    addSnack(snackName);
+    await addSnack(snackName);
     setSnackName('');
 
     toast.success('간식이 추가되었습니다');
