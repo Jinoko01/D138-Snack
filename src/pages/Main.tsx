@@ -1,5 +1,7 @@
 import SnackList from '@/components/SnackList';
 import AddSnackForm from '../components/AddSnackForm';
+import { Suspense } from 'react';
+import SnackListSkeleton from '@/components/skeleton/SnackList.skeleton';
 
 export default function Main() {
   return (
@@ -17,7 +19,9 @@ export default function Main() {
           <h2 className="text-lg font-medium text-slate-900 mb-4">
             등록된 간식 목록
           </h2>
-          <SnackList />
+          <Suspense fallback={<SnackListSkeleton />}>
+            <SnackList />
+          </Suspense>
         </div>
       </div>
     </main>
